@@ -1,1 +1,59 @@
+/* Page background */
+body {
+    background-color: #eaf4ff;
+    font-family: Arial, sans-serif;
+}
 
+/* All headings */
+h1, h2, h3 {
+    color: navy;
+    text-align: center;
+}
+
+/* Paragraphs */
+p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Hyperlinks */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Image gallery */
+.gallery img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: navy;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.discount {
+    color: green;
+    font-weight: bold;
+}
