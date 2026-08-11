@@ -1,20 +1,122 @@
-<style>
-  body {
-    background-color: #eaf4ff;
+/* Page Background and Font */
+body {
+    background-color: lightblue;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-  }
+}
 
-  h1 {
+/* All Headings */
+h1,
+h2,
+h3 {
+    color: navy;
     text-align: center;
-  }
+}
 
-  h2 {
-    color: darkblue;
-  }
-
-  p {
+/* Paragraph Styling */
+p {
+    color: #333;
     font-size: 18px;
-  }
-</style>
+    line-height: 1.6;
+}
+
+/* Hyperlinks */
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* =========================
+   QUESTION 4 - SELECTORS
+   ========================= */
+
+/* Element Selector */
+p {
+    color: #333;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: lightyellow;
+    color: darkred;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ID Selector */
+#header {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Group Selector */
+h1,
+h2 {
+    font-family: Georgia, serif;
+}
+
+/* =========================
+   EXTRA STYLING
+   ========================= */
+
+/* Gallery */
+.gallery {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+/* Videos */
+.video-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Audio */
+audio {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th {
+    background-color: navy;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.discount {
+    color: green;
+    font-weight: bold;
+}
