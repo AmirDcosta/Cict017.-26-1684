@@ -1,99 +1,20 @@
-/* Page background */
-body {
+<style>
+  body {
     background-color: #eaf4ff;
     font-family: Arial, sans-serif;
-}
+    margin: 0;
+    padding: 20px;
+  }
 
-/* All headings */
-h1, h2, h3 {
-    color: navy;
+  h1 {
     text-align: center;
-}
+  }
 
-/* Paragraphs */
-p {
-    color: #333;
+  h2 {
+    color: darkblue;
+  }
+
+  p {
     font-size: 18px;
-    line-height: 1.6;
-}
-
-/* Hyperlinks */
-a {
-    color: blue;
-    text-decoration: none;
-}
-
-a:hover {
-    color: red;
-    text-decoration: underline;
-}
-
-/* Image gallery */
-.gallery {
-    text-align: center;
-}
-
-.gallery img {
-    width: 250px;
-    height: 200px;
-    margin: 10px;
-    border: 2px solid black;
-}
-
-/* Videos */
-.video-row {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-/* Table styling */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th {
-    background-color: navy;
-    color: white;
-}
-
-th,
-td {
-    padding: 10px;
-    text-align: center;
-}
-
-.discount {
-    color: green;
-    font-weight: bold;
-}
-
-/* Question 4 - Element Selector */
-p {
-    color: #333;
-}
-
-/* Question 4 - Class Selector */
-.highlight {
-    background-color: lightyellow;
-    color: darkred;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Question 4 - ID Selector */
-#header {
-    background-color: lightblue;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-/* Question 4 - Group Selector */
-h1,
-h2 {
-    font-family: Georgia, serif;
-}
+  }
+</style>
