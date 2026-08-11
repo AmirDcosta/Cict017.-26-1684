@@ -29,11 +29,24 @@ a:hover {
 }
 
 /* Image gallery */
+.gallery {
+    text-align: center;
+}
+
 .gallery img {
     width: 250px;
     height: 200px;
     margin: 10px;
     border: 2px solid black;
+}
+
+/* Videos */
+.video-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 /* Table styling */
@@ -48,7 +61,8 @@ th {
     color: white;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: center;
 }
@@ -58,14 +72,12 @@ th, td {
     font-weight: bold;
 }
 
-/* Element Selector */
+/* Question 4 - Element Selector */
 p {
     color: #333;
-    font-size: 18px;
-    line-height: 1.6;
 }
 
-/* Class Selector */
+/* Question 4 - Class Selector */
 .highlight {
     background-color: lightyellow;
     color: darkred;
@@ -73,15 +85,15 @@ p {
     border-radius: 5px;
 }
 
-/* ID Selector */
+/* Question 4 - ID Selector */
 #header {
     background-color: lightblue;
     padding: 15px;
     border-radius: 10px;
 }
 
-/* Group Selector */
-h1, h2 {
+/* Question 4 - Group Selector */
+h1,
+h2 {
     font-family: Georgia, serif;
 }
-
