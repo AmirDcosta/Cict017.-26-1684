@@ -4,39 +4,110 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DriftLine Rentals</title>
+
+  <!-- External CSS -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      color: darkblue;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  </style>
 </head>
 <body>
 
 <div id="header">
-  <h1><u>THIS IS THE INTRODUCTION TO RENTAL CARS</u></h1>
-  <h2>If you are looking for a rental car you have come to the right place. Here we have a variety of car selections and the different price tags on them.</h2>
+  <h1 style="color: blue; text-align: center;">
+    <u>THIS IS THE INTRODUCTION TO RENTAL CARS</u>
+  </h1>
+
+  <h2>
+    If you are looking for a rental car you have come to the right place. Here we have a variety of car selections and the different price tags on them.
+  </h2>
 </div>
 
-<h3>What about us?</h3>
-<p><i>You may ask yourself about rental cars and wonder what it is? We are here to serve the community and help the less fortunate experience luxury at its highest point. All prices and vehicles are fair and just right.</i></p>
+<h3 style="background-color: lightgray;">
+  What about us?
+</h3>
 
-<p><b>We have a variety of different cars that you can choose from. We also accept negotiations as well as partial payments. NOTE we do not give out our cars on credit but rather on very small installments.</b></p>
+<p style="color: green;">
+  <i>
+    You may ask yourself about rental cars and wonder what it is? We are here to serve the community and help the less fortunate experience luxury at its highest point. All prices and vehicles are fair and just right.
+  </i>
+</p>
 
-<p><sup>We</sup> believe that our clients and customers deserve the best form of services <mark>thank you</mark> and please enjoy your visit to the <sub>website</sub></p>
+<p style="font-size: 20px;">
+  <b>
+    We have a variety of different cars that you can choose from. We also accept negotiations as well as partial payments. NOTE we do not give out our cars on credit but rather on very small installments.
+  </b>
+</p>
 
-<p>HERE BELOW IS AN EXAMPLE OF THE CARS WE CURRENTLY HAVE ON RENTALS!</p>
+<p>
+  <sup>We</sup> believe that our clients and customers deserve the best form of services <mark>thank you</mark> and please enjoy your visit to the <sub>website</sub>
+</p>
+
+<p>
+  HERE BELOW IS AN EXAMPLE OF THE CARS WE CURRENTLY HAVE ON RENTALS!
+</p>
 
 <div class="gallery">
-  <img src="images.jpg">
-  <img src="IMG_2569.jpeg">
-  <img src="IMG_2570.webp" width="400" height="400">
-  <img src="IMG_2667.jpeg">
+  <img src="images.jpg" alt="Rental Car 1">
+  <img src="IMG_2569.jpeg" alt="Rental Car 2">
+  <img src="IMG_2570.webp" width="400" height="400" alt="Rental Car 3">
+  <img src="IMG_2667.jpeg" alt="Rental Car 4">
 </div>
 
 <div class="video-row">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dfuKhmeyjug?si=TLFrkPyDWE_8diFO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/YAFUyPp_238?si=3YUSuf9R0ENPVK4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gOYmmdKM_sM?si=gEeaUarcMtoS-e6_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/dfuKhmeyjug?si=TLFrkPyDWE_8diFO"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/YAFUyPp_238?si=3YUSuf9R0ENPVK4g"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/gOYmmdKM_sM?si=gEeaUarcMtoS-e6_"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
 </div>
 
+<br>
+
+<a href="https://www.toyota.com">Visit Toyota Website</a>
+
+<br><br>
+
 <audio controls>
-    <source src="Daystar University.m4a" type="audio/mpeg">
+  <source src="Daystar University.m4a" type="audio/mpeg">
 </audio>
 
 <table border="1">
@@ -47,6 +118,7 @@
     <th>Year</th>
     <th>Discount Price (KSh)</th>
   </tr>
+
   <tr>
     <td>Mazda CX-5</td>
     <td>4500</td>
@@ -54,6 +126,7 @@
     <td>2024</td>
     <td class="discount">4000</td>
   </tr>
+
   <tr>
     <td>Toyota Prado</td>
     <td>8000</td>
@@ -61,6 +134,7 @@
     <td>2023</td>
     <td class="discount">7500</td>
   </tr>
+
   <tr>
     <td>Nissan X-Trail</td>
     <td>5500</td>
@@ -68,6 +142,7 @@
     <td>2022</td>
     <td class="discount">5000</td>
   </tr>
+
   <tr>
     <td>Honda CR-V</td>
     <td>6000</td>
@@ -75,6 +150,7 @@
     <td>2024</td>
     <td class="discount">5500</td>
   </tr>
+
   <tr>
     <td>Subaru Forester</td>
     <td>6500</td>
@@ -82,6 +158,7 @@
     <td>2023</td>
     <td class="discount">6000</td>
   </tr>
+
   <tr>
     <td>Mercedes-Benz C-Class</td>
     <td>12000</td>
@@ -89,6 +166,7 @@
     <td>2024</td>
     <td class="discount">11000</td>
   </tr>
+
   <tr>
     <td>BMW X3</td>
     <td>13000</td>
@@ -96,6 +174,7 @@
     <td>2023</td>
     <td class="discount">12000</td>
   </tr>
+
   <tr>
     <td>Toyota Corolla</td>
     <td>4000</td>
@@ -107,6 +186,4 @@
 
 </body>
 </html>
-
-
-
+```
