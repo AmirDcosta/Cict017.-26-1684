@@ -125,3 +125,18 @@ td {
     color: green;
     font-weight: bold;
 }
+
+/* Question 7 - Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: navy;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
