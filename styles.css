@@ -50,10 +50,13 @@ p {
     border-radius: 5px;
 }
 
-/* ID Selector */
+/* Question 5 - CSS Box Model */
 #header {
     background-color: white;
-    padding: 15px;
+    border: 2px solid navy;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
     border-radius: 10px;
 }
 
