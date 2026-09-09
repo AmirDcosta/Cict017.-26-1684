@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>DriftLine Rentals</title>
 
     <!-- Question 3: External CSS -->
     <link rel="stylesheet" href="styles.css">
+
     <script src="script.js"></script>
 
     <!-- Question 2: Internal CSS -->
     <style>
+
         body {
             font-family: Arial, sans-serif;
         }
@@ -26,238 +31,477 @@
         p {
             font-size: 18px;
         }
+
     </style>
+
 </head>
+
 
 <body>
 
-<nav class="navbar">
+    <!-- ==================== NAVIGATION ==================== -->
 
-    <a href="#Home">Home</a>
+    <nav class="navbar">
 
-    <a href="#About">About Us</a>
+        <a href="#Home">Home</a>
 
-    <a href="#Projects">Projects</a>
+        <a href="#About">About Us</a>
 
-    <a href="#Contact">Contact Us</a>
+        <a href="#Projects">Projects</a>
 
-</nav>
+        <a href="#Contact">Contact Us</a>
 
-  <h1 id="Home">
+    </nav>
 
-    <!-- Question 1: Inline CSS -->
-    <h1 style="color: blue; text-align: center;">
-        <u>THIS IS THE INTRODUCTION TO RENTAL CARS</u>
-    </h1>
 
-    <h2>
-        If you are looking for a rental car you have come to the right place. Here we have a variety of car selections and the different price tags on them.
-    </h2>
-      
-    <h3 id="About">
-    <!-- Question 1: Background color on a heading -->
-    <h3 class="highlight" style="background-color: lightgray;">
-        What about us?
-    </h3>
+    <!-- ==================== HOME ==================== -->
 
-    <!-- Question 1: Green paragraph -->
-    <p style="color: green;">
-        <i>
-            You may ask yourself about rental cars and wonder what it is? We are here to serve the community and help the less fortunate experience luxury at its highest point. All prices and vehicles are fair and just right.
-        </i>
-    </p>
+    <main>
 
-    <!-- Question 1: 20px paragraph -->
-    <p style="font-size: 20px;">
-        <b>
-            We have a variety of different cars that you can choose from. We also accept negotiations as well as partial payments. NOTE we do not give out our cars on credit but rather on very small installments.
-        </b>
-    </p>
+        <section id="Home">
 
-    <p>
-        <sup>We</sup> believe that our clients and customers deserve the best form of services <mark>thank you</mark> and please enjoy your visit to the <sub>website</sub>.
-    </p>
+            <!-- Question 1: Inline CSS -->
+            <h1 style="color: blue; text-align: center;">
 
-    <!-- Question 4: Class Selector -->
-    <p class="highlight">
-        HERE BELOW IS AN EXAMPLE OF THE CARS WE CURRENTLY HAVE ON RENTALS!
-    </p>
+                <u>THIS IS THE INTRODUCTION TO RENTAL CARS</u>
 
-    <div class="gallery">
-        <img src="images.jpg" alt="Rental Car 1">
-        <img src="IMG_2569.jpeg" alt="Rental Car 2">
-        <img src="IMG_2570.webp" alt="Rental Car 3">
-        <img src="IMG_2667.jpeg" alt="Rental Car 4">
-    </div>
+            </h1>
 
-    <div class="video-row">
-        <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/dfuKhmeyjug?si=TLFrkPyDWE_8diFO"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-        </iframe>
 
-        <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/YAFUyPp_238?si=3YUSuf9R0ENPVK4g"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-        </iframe>
+            <h2>
 
-        <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/gOYmmdKM_sM?si=gEeaUarcMtoS-e6_"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-        </iframe>
-    </div>
+                If you are looking for a rental car you have come to the right place. Here we have a variety of car selections and the different price tags on them.
 
-    <br>
+            </h2>
 
-    <a href="https://www.toyota.com" target="_blank">
-        Visit Toyota Website
-    </a>
+        </section>
 
-    <br><br>
 
-    <audio controls>
-        <source src="Daystar University.m4a" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+        <!-- ==================== ABOUT US ==================== -->
 
-    <table>
-        <tr>
-            <th>Car Name</th>
-            <th>Price Per Day (KSh)</th>
-            <th>Car Model</th>
-            <th>Year</th>
-            <th>Discount Price (KSh)</th>
-        </tr>
+        <section id="About">
 
-        <tr>
-            <td>Mazda CX-5</td>
-            <td>4500</td>
-            <td>Mazda</td>
-            <td>2024</td>
-            <td class="discount">4000</td>
-        </tr>
+            <!-- Question 1: Background color on a heading -->
 
-        <tr>
-            <td>Toyota Prado</td>
-            <td>8000</td>
-            <td>Toyota</td>
-            <td>2023</td>
-            <td class="discount">7500</td>
-        </tr>
+            <h3 class="highlight" style="background-color: lightgray;">
 
-        <tr>
-            <td>Nissan X-Trail</td>
-            <td>5500</td>
-            <td>Nissan</td>
-            <td>2022</td>
-            <td class="discount">5000</td>
-        </tr>
+                What about us?
 
-        <tr>
-            <td>Honda CR-V</td>
-            <td>6000</td>
-            <td>Honda</td>
-            <td>2024</td>
-            <td class="discount">5500</td>
-        </tr>
+            </h3>
 
-        <tr>
-            <td>Subaru Forester</td>
-            <td>6500</td>
-            <td>Subaru</td>
-            <td>2023</td>
-            <td class="discount">6000</td>
-        </tr>
 
-        <tr>
-            <td>Mercedes-Benz C-Class</td>
-            <td>12000</td>
-            <td>Mercedes-Benz</td>
-            <td>2024</td>
-            <td class="discount">11000</td>
-        </tr>
+            <!-- Question 1: Green paragraph -->
 
-        <tr>
-            <td>BMW X3</td>
-            <td>13000</td>
-            <td>BMW</td>
-            <td>2023</td>
-            <td class="discount">12000</td>
-        </tr>
+            <p style="color: green;">
 
-        <tr>
-            <td>Toyota Corolla</td>
-            <td>4000</td>
-            <td>Toyota</td>
-            <td>2022</td>
-            <td class="discount">3500</td>
-        </tr>
-    </table>
+                <i>
 
-    <section class="cards-container" id="Projects">
+                    You may ask yourself about rental cars and wonder what it is? We are here to serve the community and help the less fortunate experience luxury at its highest point. All prices and vehicles are fair and just right.
 
-    <section class="cards-container">
+                </i>
 
-        <div class="card">
-            <h3>Portfolio</h3>
-            <p>View my rental car portfolio and available vehicle collection.</p>
-        </div>
+            </p>
 
-        <div class="card">
-            <h3>My Project</h3>
-            <p>This project showcases a car rental website built using HTML and CSS.</p>
-        </div>
 
-        <div class="card">
-            <h3>Assignments</h3>
-            <p>Contains coursework and practical assignments completed during my studies.</p>
-        </div>
+            <!-- Question 1: 20px paragraph -->
 
-    </section>
+            <p style="font-size: 20px;">
 
-    <h3>Change Background</h3>
+                <b>
 
-    <button onclick="yellowBackground()"> Yellow 
-    </button>
+                    We have a variety of different cars that you can choose from. We also accept negotiations as well as partial payments. NOTE we do not give out our cars on credit but rather on very small installments.
 
-    <button onclick="blueBackground()"> Light Blue 
-    </button>
+                </b>
 
-    <button onclick="whiteBackground()"> White 
-    </button>
+            </p>
 
-    <p id="message">
-        welcome to our car rentals platform!
-    </p>
 
-    <button onclick="changeMessage()"> 
-        Change Message 
-    </button>
+            <p>
 
-   <p id="Contact">
-    contact us 
-    0713230487
-</p>
+                <sup>We</sup> believe that our clients and customers deserve the best form of services
 
-</main> 
-    
-<footer>
+                <mark>thank you</mark>
 
-    <p>&copy;2026 car rental service
-    all rights reserved 
-    </p>
+                and please enjoy your visit to the
 
-</footer>
-    
+                <sub>website</sub>.
+
+            </p>
+
+        </section>
+
+
+        <!-- ==================== CAR GALLERY ==================== -->
+
+        <section>
+
+            <!-- Question 4: Class Selector -->
+
+            <p class="highlight">
+
+                HERE BELOW IS AN EXAMPLE OF THE CARS WE CURRENTLY HAVE ON RENTALS!
+
+            </p>
+
+
+            <div class="gallery">
+
+                <img src="images.jpg" alt="Rental Car 1">
+
+                <img src="IMG_2569.jpeg" alt="Rental Car 2">
+
+                <img src="IMG_2570.webp" alt="Rental Car 3">
+
+                <img src="IMG_2667.jpeg" alt="Rental Car 4">
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== VIDEOS ==================== -->
+
+        <section>
+
+            <div class="video-row">
+
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/dfuKhmeyjug?si=TLFrkPyDWE_8diFO"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+
+
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/YAFUyPp_238?si=3YUSuf9R0ENPVK4g"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+
+
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/gOYmmdKM_sM?si=gEeaUarcMtoS-e6_"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </section>
+
+
+        <br>
+
+
+        <!-- ==================== TOYOTA LINK ==================== -->
+
+        <section>
+
+            <a href="https://www.toyota.com" target="_blank">
+
+                Visit Toyota Website
+
+            </a>
+
+        </section>
+
+
+        <br><br>
+
+
+        <!-- ==================== AUDIO ==================== -->
+
+        <section>
+
+            <audio controls>
+
+                <source src="Daystar University.m4a" type="audio/mpeg">
+
+                Your browser does not support the audio element.
+
+            </audio>
+
+        </section>
+
+
+        <!-- ==================== CAR TABLE ==================== -->
+
+        <section>
+
+            <table>
+
+                <tr>
+
+                    <th>Car Name</th>
+
+                    <th>Price Per Day (KSh)</th>
+
+                    <th>Car Model</th>
+
+                    <th>Year</th>
+
+                    <th>Discount Price (KSh)</th>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Mazda CX-5</td>
+
+                    <td>4500</td>
+
+                    <td>Mazda</td>
+
+                    <td>2024</td>
+
+                    <td class="discount">4000</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Toyota Prado</td>
+
+                    <td>8000</td>
+
+                    <td>Toyota</td>
+
+                    <td>2023</td>
+
+                    <td class="discount">7500</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Nissan X-Trail</td>
+
+                    <td>5500</td>
+
+                    <td>Nissan</td>
+
+                    <td>2022</td>
+
+                    <td class="discount">5000</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Honda CR-V</td>
+
+                    <td>6000</td>
+
+                    <td>Honda</td>
+
+                    <td>2024</td>
+
+                    <td class="discount">5500</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Subaru Forester</td>
+
+                    <td>6500</td>
+
+                    <td>Subaru</td>
+
+                    <td>2023</td>
+
+                    <td class="discount">6000</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Mercedes-Benz C-Class</td>
+
+                    <td>12000</td>
+
+                    <td>Mercedes-Benz</td>
+
+                    <td>2024</td>
+
+                    <td class="discount">11000</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>BMW X3</td>
+
+                    <td>13000</td>
+
+                    <td>BMW</td>
+
+                    <td>2023</td>
+
+                    <td class="discount">12000</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Toyota Corolla</td>
+
+                    <td>4000</td>
+
+                    <td>Toyota</td>
+
+                    <td>2022</td>
+
+                    <td class="discount">3500</td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+
+        <!-- ==================== PROJECTS ==================== -->
+
+        <section class="cards-container" id="Projects">
+
+            <div class="card">
+
+                <h3>Portfolio</h3>
+
+                <p>
+                    View my rental car portfolio and available vehicle collection.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>My Project</h3>
+
+                <p>
+                    This project showcases a car rental website built using HTML and CSS.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>Assignments</h3>
+
+                <p>
+                    Contains coursework and practical assignments completed during my studies.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== BACKGROUND BUTTONS ==================== -->
+
+        <section>
+
+            <h3>Change Background</h3>
+
+
+            <button onclick="yellowBackground()">
+
+                Yellow
+
+            </button>
+
+
+            <button onclick="blueBackground()">
+
+                Light Blue
+
+            </button>
+
+
+            <button onclick="whiteBackground()">
+
+                White
+
+            </button>
+
+        </section>
+
+
+        <!-- ==================== MESSAGE ==================== -->
+
+        <section>
+
+            <p id="message">
+
+                welcome to our car rentals platform!
+
+            </p>
+
+
+            <button onclick="changeMessage()">
+
+                Change Message
+
+            </button>
+
+        </section>
+
+
+        <!-- ==================== CONTACT ==================== -->
+
+        <section id="Contact">
+
+            <p>
+
+                contact us
+
+                0713230487
+
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer>
+
+        <p>
+
+            &copy;2026 car rental service
+            all rights reserved
+
+        </p>
+
+    </footer>
+
+
 </body>
+
 </html>
 
